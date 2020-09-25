@@ -1,4 +1,4 @@
-v3.7.3 (XXXX-XX-XX)
+v3.7.3 (2020-09-25)
 -------------------
 
 * Use rclone built from v1.51.0 source with go1.15.2 instead of prebuilt
