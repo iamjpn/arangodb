@@ -59,9 +59,9 @@ include(TestBigEndian)
 TEST_BIG_ENDIAN(IS_BIGENDIAN)
 
 if (${IS_BIGENDIAN})
-  set(ENDIANESS 'big')
+  set(ENDIANESS big)
 else()
-  set(ENDIANESS 'little')
+  set(ENDIANESS little)
 endif()
 
 # detect 32bit or 64bit
@@ -94,6 +94,7 @@ list(APPEND V8_GYP_ARGS
   -Dv8_target_arch=${V8_PROC_ARCH}
   -Dv8_host_arch=${V8_PROC_ARCH}
   -Dbyteorder=${ENDIANESS}
+  -Dv8_host_byteorder=${ENDIANESS}
   -Dv8_enable_i18n_support=1
   -DV8_SRC_ROOT=${GYP_FILES_DIR}/
 )
