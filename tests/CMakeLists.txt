@@ -292,9 +292,9 @@ set(ARANGODB_TESTS_SOURCES
   Transaction/Manager-test.cpp
   Transaction/RestTransactionHandler-test.cpp
   Utils/CollectionNameResolver-test.cpp
-  V8Server/v8-analyzers-test.cpp
-  V8Server/v8-users-test.cpp
-  V8Server/v8-views-test.cpp
+  #V8Server/v8-analyzers-test.cpp
+  #V8Server/v8-users-test.cpp
+  #V8Server/v8-views-test.cpp
   VocBase/vocbase-test.cpp
   VocBase/LogicalDataSource-test.cpp
   VocBase/LogicalView-test.cpp
