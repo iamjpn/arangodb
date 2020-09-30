@@ -162,6 +162,7 @@ if (USE_SIMDCOMP)
 
   add_definitions(${Vc_ARCHITECTURE_FLAGS})
 endif()
+add_definitions(-DNO_WARN_X86_INTRINSICS)
 
 ################################################################################
 ### find 3rd party libraries
